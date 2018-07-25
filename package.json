@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfuller957/website.git"
+  },
+  "author": "James Fuller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfuller957/website/issues"
+  },
+  "homepage": "https://github.com/jfuller957/website#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
