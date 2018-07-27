@@ -61,6 +61,17 @@
 
     grid-template-columns: 1fr;
   }
+
+  .projects {
+    grid-template-areas:
+      'item1'
+      'item2'
+      'item3'
+      'item4'
+      'item5';
+
+    grid-template-columns: 1fr;
+  }
   grid-template-columns: repeat(2, 1fr);
 }
 
