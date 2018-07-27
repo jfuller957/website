@@ -63,7 +63,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: darken($primary-color, $amount: 5);
+    background: darken($primary-color, 5);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
@@ -81,7 +81,7 @@
     transform: translate3d(0, 100%, 0);
 
     &.show {
-      // Slide in from the top
+      // Slide in from the bottom
       transform: translate3d(0, 0, 0);
     }
 
@@ -99,7 +99,7 @@
     @include easeOut;
 
     &.show {
-      // Slide in from the top
+      // Slide in from the right
       transform: translate3d(0, 0, 0);
     }
 
